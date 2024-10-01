@@ -19,9 +19,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: List artifacts directory
-        run: ls -la artifacts/
-
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
