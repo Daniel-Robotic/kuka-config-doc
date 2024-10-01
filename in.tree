@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Документация для работы с KUKA iiwa и мультикамерной системой"
+                 start-page="starter.md">
+
+    <toc-element topic="starter.md">
+        <toc-element topic="Install-Ubuntu.md"/>
+        <toc-element topic="Монтирование-HDD-SSD.md"/>
+        <toc-element topic="Настройка-Ubuntu-сервера.md">
+            <toc-element topic="OpenSSH.md"/>
+            <toc-element topic="Настройка-подключения-к-Ubuntu-серверу-по-SSH-в-Windows.md"/>
+            <toc-element topic="Отключение-ввода-пароля-sudo.md"/>
+            <toc-element topic="Установка-Ansible.md"/>
+            <toc-element topic="Установка-Docker.md"/>
+            <toc-element topic="Вспомогательные-инструменты-для-работы-с-системой.md"/>
+        </toc-element>
+        <toc-element topic="Настройка-Jetson.md"/>
+    </toc-element>
+    <toc-element topic="Инструменты.md">
+        <toc-element topic="Ansible.md"/>
+        <toc-element topic="Docker.md"/>
+        <toc-element topic="ROS.md"/>
+        <toc-element topic="MinIO.md"/>
+        <toc-element topic="LabelStudio.md"/>
+    </toc-element>
+
+</instance-profile>

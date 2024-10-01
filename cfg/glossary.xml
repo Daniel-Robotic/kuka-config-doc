@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+    <term name="docker">
+        Платформа контейнеризации с открытым исходным кодом, используемая для оптимизации управления приложениями и разработки программного обеспечения.
+    </term>
+    <term name="ansible">
+        Cистема, которая помогает автоматически управлять серверами в компьютерной сети.
+    </term>
+</terms>
